@@ -7,6 +7,9 @@ a { color: var(--accent); text-decoration: none; }
 .container { max-width: 980px; margin: 0 auto; padding: 0 20px; }
 .site-header { position: sticky; top:0; background: rgba(11,18,32,0.7); backdrop-filter: blur(8px); border-bottom: 1px solid rgba(255,255,255,0.06); }
 .site-header nav { display: flex; align-items:center; justify-content: space-between; height: 64px; }
+
+.site-header .container,
+.site-footer .container { padding-left: 0; padding-right: 0; }
 .brand { font-weight: 700; color: var(--fg); }
 .nav { display:flex; gap:16px; list-style:none; padding:0; margin:0; }
 .nav a { color: var(--fg); opacity:0.85; }
@@ -33,4 +36,7 @@ h2 { font-size: 28px; margin: 0 0 16px; }
   .hero { padding-left: 16px; padding-right: 16px; }
   #writing,
   #contact { padding-left: 16px; padding-right: 16px; }
+
+  .site-header .container,
+  .site-footer .container { padding-left: 16px; padding-right: 16px; }
 }
