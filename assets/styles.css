@@ -20,7 +20,7 @@ a { color: var(--accent); text-decoration: none; }
 section { padding: 40px 0; }
 h2 { font-size: 28px; margin: 0 0 16px; }
 .list { display:grid; gap:16px; padding:0; margin:0; list-style:none; }
-.list li { background: var(--card); border: 1px solid rgba(255,255,255,0.06); border-radius:16px; padding:16px; }
+.list li { padding:0; }
 .site-footer { padding: 32px 0; border-top:1px solid rgba(255,255,255,0.06); color: var(--muted); }
 
 /* Align lower sections with the hero block's left edge */
